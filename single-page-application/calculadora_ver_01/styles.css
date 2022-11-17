@@ -1,0 +1,44 @@
+html, body {
+    background-color: red;
+    color: white;
+    font-size: 50px;
+}
+
+.buttons {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vh;
+    width: 14vh;
+    height: 14vh;
+    margin: 0.5vw;
+    border-radius: 15px;
+}
+
+.numbers {
+    background-color: darkgreen;
+    color: honeydew;
+}
+
+.operators {
+    background-color: orange;
+    color: black;
+}
+
+#btnIgual{
+    width: 68.5vh;
+    height: 14vh;
+}
+
+#btnDisplay{
+    width: 68.5vh;
+    height: 14vh;
+    font-size: 6vh;
+    text-align: right;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+#contenedor{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}

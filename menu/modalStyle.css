@@ -1,0 +1,28 @@
+.button{
+	background-color: #C8398B;
+	color: #E9C6DA;
+	font-size:20px;
+}	
+.window{
+	background-color: #EBEBF1;
+	margin-top: 5%;
+	margin-left: 5%;
+	height: 200px;
+	width: 400px;
+	border:solid 1pt;
+}
+
+.windowBorder{
+	margin-top:auto;
+	width:400px;
+	height:30px;
+	background-color:#41597B;
+}
+
+.buttonModal{
+	background-color: #95C3C3;
+	display:grid;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+}

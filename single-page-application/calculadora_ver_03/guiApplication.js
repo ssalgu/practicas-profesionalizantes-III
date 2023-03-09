@@ -10,4 +10,5 @@ function startGUIApplication()
 
 customElements.define('x-calculator-view', calculatorView);
 
+// Load de application on startup
 window.addEventListener('load',startGUIApplication );

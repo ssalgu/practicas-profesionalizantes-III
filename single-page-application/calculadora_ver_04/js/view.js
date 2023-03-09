@@ -9,6 +9,7 @@ class CalculatorView extends HTMLElement
 {
 	constructor(model)
 	{
+		// Access and call functions of the parent of an object
 		super();
 
 		//Acquire model reference

@@ -8,13 +8,14 @@
 
 //------------ Request Process ----------------
 
-//Recepcionar el cuerpo de la petición bajo método POST
-//Decodificar el cuerpo de la petición de origen como JSON
+// Decodificar el cuerpo de la petición de origen como JSON, previamente remitido bajo método POST
+
 $input = json_decode( file_get_contents('php://input') );
 
 //------------ Model Functions ----------------
 
 // Función que ejecuta la sintaxis de la expresión en el display
+
 function calculate( $expression )
 {
 	$result = eval( 'return '.$expression.';' );
